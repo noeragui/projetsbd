@@ -1,0 +1,178 @@
+/*
+
+Blogger Gadget Commentaires Filetés - Activités récentes.
+
+Distribution non autorisée au-delà du blog : http://bloggercode-blogconnexion.blogspot.com/
+
+AUTHOR : SORAYA LAMBRECHTS
+
+*/
+
+
+.bc-comment-single {
+  color: rgb(102, 102, 102);
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #353535;
+}
+
+.bc-comment-single-content {
+  border-left: 2px solid grey;
+  padding-left: 5px;
+  border-radius: 2px;
+}
+
+.bc-comment-single-content.level1New {
+  border-color: #d1c0a0;
+}
+
+.bc-comment-single-content.level2New {
+  border-color: #790505;
+}
+
+.bc-comment-single-content.level1Delete,
+.bc-comment-single-content.level2Delete {
+  border-color: red;
+}
+
+.L1Admin, .L2Admin {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #f0c36d;
+  box-shadow: 0 2px 4px rgba(0,0,0,.2);
+  color: #222;
+  font-size: 11px;
+  opacity: 1;
+  position: static;
+  text-align: center;
+}
+
+.L1Admin {
+  background: #f9edbe;
+}
+
+.L2Admin {
+  background: #f9edbe;
+}
+
+.bc-comment-L1img {
+  float: left;
+}
+
+.bc-comment-L1img img {
+  padding: 0px;
+  margin: 0px;
+  background: transparent;
+  box-shadow: inherit;
+  border: 0px;
+}
+
+.bc-comment-single-informations {
+  display: block;
+  padding-left: 5px;
+  position: relative;
+}
+
+.level1Delete .bc-comment-single-informations {
+  margin-left: 0px !important;
+}
+
+.bc-comment-single-content .comment-hyperlink {
+  opacity: 0.0;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+}
+
+.bc-comment-single-content:hover .comment-hyperlink {
+  opacity: 1.0;
+}
+
+.bctheme-light .bc-comment-single-content a.comment-hyperlink:link,
+.bctheme-light .bc-comment-single-content a.comment-hyperlink:hover,
+.bctheme-light .bc-comment-single-content a.comment-hyperlink:visited {
+  color: #ddc088;
+}
+
+.bctheme-dark .bc-comment-single-content a.comment-hyperlink:link,
+.bctheme-dark .bc-comment-single-content a.comment-hyperlink:hover,
+.bctheme-dark .bc-comment-single-content a.comment-hyperlink:visited {
+  color: #fff;
+}
+
+.bctheme-light .bc-comment-single-displaytime {
+  color: rgb(153, 153, 153);
+}
+
+.bctheme-dark .bc-comment-single-displaytime {
+  color: gray;
+}
+
+.bctheme-light .bc-comment-single-activity {
+  color: rgb(102, 102, 102);
+}
+
+.bctheme-dark .bc-comment-single-activity {
+  color: rgb(204, 204, 204);
+}
+
+.bctheme-light .bc-comment-single-activity a:link,
+.bctheme-light .bc-comment-single-activity a:hover,
+.bctheme-light .bc-comment-single-activity a:visited,
+.bctheme-light .sdfduweb {
+    color: #ddc088;
+}
+
+.bctheme-dark .bc-comment-single-activity a:link,
+.bctheme-dark .bc-comment-single-activity a:hover,
+.bctheme-dark .bc-comment-single-activity a:visited,
+.bctheme-dark .sdfduweb {
+  font-weight: bold;
+  color: #fff;
+}
+
+.bctheme-light .bc-comment-single-summary {
+  color: rgb(186, 186, 186);
+}
+
+.bctheme-dark .bc-comment-single-summary {
+  color: rgb(204, 204, 204);
+}
+
+.bc-comment-summary-cite {
+  font-style: italic;
+}
+
+.verrouico {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  background: url(https://sites.google.com/site/bloggercodebc/home/share_buttons/icoGgroups.png) no-repeat -378px -48px;
+}
+
+.blogcreator, .postcreator {
+  display: inline-block;
+  padding-right: 14px;
+  background-repeat: no-repeat;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==");
+  background-size: 10px;
+  background-position: center right;
+}
+
+.BCCrash {
+  display: block;
+}
+
+.BCCrash:after {
+  content:"Probleme technique. Contactez Blogger Code.";
+}
+
+.Blogger_Code_Soraya_Lambrechts {
+  display: none;
+}
+
+.Blogger_Code_Soraya_Lambrechts:after {
+  content:"";
+}
