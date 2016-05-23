@@ -110,7 +110,7 @@ document.write("<div class='bctheme-"+ClassTheme+"' style='background-color: "+b
         var L1AuthorThumbUri = "<div class='bc-comment-L1img'><img src='"+L1AuthorThumbUri+"' width='"+L1ThumbSize+"' height='"+L1ThumbSize+"' alt='' style='border-radius: "+L1ThumbBorderRadius+"px;'/></div>"; }
 
     if (L1AuthorThumbUri == "http://img1.blogblog.com/img/blank.gif") {
-      var L1AuthorThumbUri = "<div class='bc-comment-L1img'><img src='http://img1.blogblog.com/img/anon36.png' width='"+L1ThumbSize+"' height='"+L1ThumbSize+"' alt='' style='border-radius: "+L1ThumbBorderRadius+"px;'/></div>"; }
+      var L1AuthorThumbUri = "<div class='bc-comment-L1img'><img src='https://3.bp.blogspot.com/-4ifvKtCH5I8/VyUEQZn_-jI/AAAAAAAAAs8/pRyRT6kHUD8VZhQylgK5LKKSgLwwBzrTQCLcB/s1600/avatar-freepix.jpg' width='"+L1ThumbSize+"' height='"+L1ThumbSize+"' alt='' style='border-radius: "+L1ThumbBorderRadius+"px;'/></div>"; }
     else {
       if (L1AuthorThumbUri == "http://img2.blogblog.com/img/b16-rounded.gif") {
         var L1AuthorThumbUri = "<div class='bc-comment-L1img'><img src='https://lh4.googleusercontent.com/-jRkwoGM8WeE/UFEb_-t7e7I/AAAAAAAANUc/Ad2OQ6OztJw/s"+L1ThumbSize+"/blogger_logo.png' width='"+L1ThumbSize+"' height='"+L1ThumbSize+"' alt='' style='border-radius: "+L1ThumbBorderRadius+"px;'/></div>"; }
