@@ -93,13 +93,13 @@ AUTHOR : SORAYA LAMBRECHTS
 .bctheme-light .bc-comment-single-content a.comment-hyperlink:link,
 .bctheme-light .bc-comment-single-content a.comment-hyperlink:hover,
 .bctheme-light .bc-comment-single-content a.comment-hyperlink:visited {
-  color: #ddc088;
+  color: #666666;
 }
 
 .bctheme-dark .bc-comment-single-content a.comment-hyperlink:link,
 .bctheme-dark .bc-comment-single-content a.comment-hyperlink:hover,
 .bctheme-dark .bc-comment-single-content a.comment-hyperlink:visited {
-  color: #fff;
+  color: #666666;
 }
 
 .bctheme-light .bc-comment-single-displaytime {
