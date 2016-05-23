@@ -78,7 +78,7 @@ AUTHOR : SORAYA LAMBRECHTS
 }
 
 .bc-comment-single-content .comment-hyperlink {
-  opacity: 0.0;
+  opacity: 1.0;
   position: absolute;
   top: 0px;
   right: 0px;
